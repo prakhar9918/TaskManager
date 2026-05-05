@@ -11,7 +11,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: "https://task-manager-p0ooko5df-prakhar-s-projects-d79d8ef2.vercel.app/",
+  origin: "*",
   credentials: true
 }));
 app.use(express.json());
