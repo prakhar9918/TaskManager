@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import API from "../api";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
-import TaskCard from "../components/TaskCard";
+import TaskCard from "../components/Taskcard";
 
 export default function Dashboard() {
   const [tasks, setTasks] = useState([]);
