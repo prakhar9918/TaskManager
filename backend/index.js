@@ -11,7 +11,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: "https://taskmanager-7e0g.onrender.com",
+  origin: "https://task-manager-one-ashy-16.vercel.app/",
   credentials: true
 }));
 app.use(express.json());
