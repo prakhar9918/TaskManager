@@ -10,7 +10,10 @@ import taskRoutes from "./router/task.js";
 dotenv.config();
 const app = express();
 
-app.use(cors({ origin: "*" }));
+app.use(cors({
+  origin: "https://taskmanager-7e0g.onrender.com",
+  credentials: true
+}));
 app.use(express.json());
 
 app.use("/api/auth", authRoutes);
